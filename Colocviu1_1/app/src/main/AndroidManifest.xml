@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Colocviu1_1">
         <activity
+            android:name=".Colocviu1_1SecondaryActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
