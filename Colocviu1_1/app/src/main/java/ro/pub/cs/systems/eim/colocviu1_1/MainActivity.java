@@ -153,7 +153,6 @@ public class MainActivity extends AppCompatActivity {
             numberOfPresses = savedInstanceState.getInt("saveCounts");
         } else {
             numberOfPresses = 0;
-
         }
 
         Log.d("[onRestoreInstanceState-Value]", String.valueOf(numberOfPresses));
